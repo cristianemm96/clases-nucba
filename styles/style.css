@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(9, 4, 53);
+}
+
+#perfil{
+    width: 29%;
+    height: 780px;
+    background-color: hsl(239, 51%, 55%);
+    margin-left:35%;
+    margin-top: 9%;
+    margin-bottom: 3%;
+    border-radius: 15px 15px;
+    box-shadow: 7px 8px 16px -5px hsl(239, 51%, 55%);
+    -webkit-box-shadow: 7px 8px 16px -5px hsl(239, 51%, 55%);
+    -moz-box-shadow: 7px 8px 16px -5px hsl(239, 51%, 55%);
+}
+
+#img-perfil{
+    width: 23%;
+    border-radius: 15px 15px;
+    margin-left: 69%;
+}
+
+h1{
+    font-size: 20px;
+    margin-left:97px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+}
+
+#list{
+    margin-left: 50px;
+    margin-top: -110px;
+    line-height: 30px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+}
+
+a{
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);  
+}
+
+p{
+    margin-top: 40px;
+    margin-left: 25px;
+    text-align: center;
+    margin-right: 25px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+    letter-spacing: 1px;
+}
+
+hr{
+    margin-top: 30px;
+    border: 0.em solid hsl(150, 100%, 98%);;
+}
+
+form{
+    overflow: auto;
+}
+
+#nombre{
+    margin-left: 45px;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+}
+
+#in-nombre{
+    margin-left: 120px;
+    margin-top:-20px;
+    display: block;
+    height: 25px;
+    width: 220px;
+}
+
+#contacto{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+}
+
+#mail{
+    margin-left: 45px;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block; 
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+}
+
+#in-mail{
+    margin-left: 120px;
+    margin-top:-20px;
+    display: block;
+    height: 25px;
+    width: 220px;
+}
+
+#mail{
+    margin-left: 45px;
+    margin-right: auto;
+    margin-top: 18px;
+    display: block; 
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+}
+
+#in-mail{
+    margin-left: 120px;
+    margin-top:-20px;
+    display: block;
+    height: 25px;
+    width: 220px;
+}
+
+#comment{
+    margin-left: 160px;
+    margin-right: auto;
+    margin-top: 10px;
+    display: block; 
+    font-family: 'Gemunu Libre', sans-serif;
+    color: hsl(150, 100%, 98%);
+}
+    
+#msg{
+    margin-left: 45px;
+    margin-top:10px;
+    display: block;
+    height: 105px;
+    width: 297px;
+}
+
+#submit{
+    margin-left: 110px;
+    margin-top: 25px;
+    width: 170px;
+    background-color: hsla(170, 100%, 100%, 1);
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    height: 45px;
+    border-radius: 8px 8px;
+    border: none;
+    box-shadow: 0px 15px 15px -15px  rgb(9, 4, 53);
+}
+
+#submit:hover{
+    color: hsla(170, 100%, 100%, 1);
+    background-color: rgb(12, 7, 61);
+}
