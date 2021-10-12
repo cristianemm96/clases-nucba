@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
 
 *{
     margin: 0;
@@ -11,7 +12,7 @@ body{
 
 #perfil{
     width: 29%;
-    height: 780px;
+    height: 950px;
     background-color: hsl(239, 51%, 55%);
     margin-left:35%;
     margin-top: 9%;
@@ -162,4 +163,16 @@ form{
 #submit:hover{
     color: hsla(170, 100%, 100%, 1);
     background-color: rgb(12, 7, 61);
+}
+
+.frase{
+    font-family: 'Birthstone', cursive;
+    font-size: 22px;
+}
+
+.jobs{
+    display: block;
+    margin-top: 2px;
+    margin-left: 220px;
+    margin-bottom: -10px;
 }
